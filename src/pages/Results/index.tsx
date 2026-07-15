@@ -10,32 +10,17 @@ import { normalizeResults } from "../../lib/normalizeResults";
 
 import { gifts } from "../../data/gifts";
 
-import ResultCard from "../../components/results/ResultCard";
+import ResultCard from "@/components/results/ResultCard";
 import ResultsHeader from "@/components/results/ResultsHeader";
 import TopGiftCard from "@/components/results/TopGiftCard";
 import GiftAccordion from "@/components/results/GiftAccordion";
+import DownloadReportButton from "@/components/results/DownloadReportButton";
+import ResetButton from "@/components/results/ResetButton";
 
 export default function Results() {
   const { answers, name } = useAssessment();
 
   const results = calculateResults(answers);
-
-  const maxScoreByGift: Record<string, number> = {
-    apostol: 15,
-    profeta: 15,
-    evangelista: 15,
-    pastor: 15,
-    maestro: 15,
-    liderazgo: 15,
-    exhortacion: 15,
-    fe: 15,
-    sabiduria: 10,
-    conocimiento: 10,
-    discernimiento: 10,
-    servicio: 10,
-    misericordia: 10,
-    administracion: 10,
-  };
 
   return (
     <AppLayout>
@@ -61,67 +46,60 @@ export default function Results() {
         </div>
 
         <div className="space-y-4">
-          {results.slice(0, 3).map((gift, index) => {
-            const info = gifts.find(g => g.id === gift.gift);
+          {results.slice(0, 3).map((result, index) => {
+            const info = gifts.find(g => g.id === result.gift);
+
+            if (!info) return null;
 
             return (
               <TopGiftCard
-                key={gift.gift}
+                key={result.gift}
                 position={index + 1}
-                title={info?.name ?? gift.gift}
-                score={gift.score}
-                maxScore={maxScoreByGift[gift.gift]}
+                title={info.name}
+                score={result.score}
+                maxScore={info.maxScore}
               />
             );
           })}
         </div>
 
-        <RadarSection data={normalizeResults(results)} />
-
+        <RadarSection data={normalizeResults(results)} gifts={gifts} />
         <div className="mt-8 space-y-4">
           {results.map(result => {
             const gift = gifts.find(g => g.id === result.gift);
 
             if (!gift) return null;
 
-            const maxScore = [
-              "apostol",
-              "profeta",
-              "evangelista",
-              "pastor",
-              "maestro",
-              "liderazgo",
-              "exhortacion",
-              "fe",
-            ].includes(gift.id)
-              ? 15
-              : 10;
-
             return (
               <GiftAccordion
                 key={gift.id}
                 gift={gift}
                 score={result.score}
-                maxScore={maxScore}
+                maxScore={gift.maxScore}
               />
             );
           })}
         </div>
 
         <div className="space-y-4">
-          {results.map(gift => {
-            const info = gifts.find(g => g.id === gift.gift);
+          {results.map(result => {
+            const info = gifts.find(g => g.id === result.gift);
+
+            if (!info) return null;
 
             return (
               <ResultCard
-                key={gift.gift}
-                title={info?.name ?? gift.gift}
-                score={gift.score}
-                maxScore={maxScoreByGift[gift.gift]}
+                key={result.gift}
+                title={info.name}
+                score={result.score}
+                maxScore={info.maxScore}
               />
             );
           })}
         </div>
+
+        <DownloadReportButton name={name} results={results} gifts={gifts} />
+        <ResetButton />
       </div>
     </AppLayout>
   );

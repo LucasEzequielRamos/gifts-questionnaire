@@ -13,6 +13,9 @@ export interface Gift {
 
   color: string;
 
+  maxScore: number;
+  questions: number;
+
   summary: string;
 
   description: string;

@@ -1,4 +1,5 @@
-    import questions from "../data/questions.json";
+import questions from "../data/questions.json";
+import { gifts } from "../data/gifts";
 
 export interface GiftScore {
   gift: string;
@@ -23,5 +24,13 @@ export function calculateResults(answers: number[]): GiftScore[] {
       gift,
       score,
     }))
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => {
+      const giftA = gifts.find((g) => g.id === a.gift);
+      const giftB = gifts.find((g) => g.id === b.gift);
+
+      const percentageA = giftA ? a.score / giftA.maxScore : 0;
+      const percentageB = giftB ? b.score / giftB.maxScore : 0;
+
+      return percentageB - percentageA;
+    });
 }

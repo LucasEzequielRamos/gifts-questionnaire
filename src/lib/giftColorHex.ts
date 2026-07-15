@@ -1,0 +1,16 @@
+export const giftColorHex: Record<string, string> = {
+  "bg-indigo-500": "#6366f1",
+  "bg-red-500": "#ef4444",
+  "bg-orange-500": "#f97316",
+  "bg-emerald-500": "#10b981",
+  "bg-blue-600": "#2563eb",
+  "bg-yellow-500": "#eab308",
+  "bg-sky-500": "#0ea5e9",
+  "bg-violet-500": "#8b5cf6",
+  "bg-amber-500": "#f59e0b",
+  "bg-cyan-500": "#06b6d4",
+  "bg-teal-500": "#14b8a6",
+  "bg-green-500": "#22c55e",
+  "bg-pink-500": "#ec4899",
+  "bg-slate-600": "#475569",
+};

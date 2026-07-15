@@ -5,14 +5,17 @@ interface Props {
 }
 
 export default function ResultCard({ title, score, maxScore }: Props) {
-  const percentage = (score / maxScore) * 100;
+  const percentage = Math.round((score / maxScore) * 100);
 
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="mb-3 flex justify-between">
+      <div className="mb-3 flex items-baseline justify-between">
         <h3 className="font-semibold">{title}</h3>
 
-        <span className="font-bold text-blue-600">{score}</span>
+        <span className="text-sm font-bold text-blue-600">
+          {score}/{maxScore}{" "}
+          <span className="font-normal text-slate-400">({percentage}%)</span>
+        </span>
       </div>
 
       <div className="h-3 overflow-hidden rounded-full bg-slate-200">

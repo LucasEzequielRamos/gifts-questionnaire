@@ -6,12 +6,16 @@ import {
   type ReactNode,
 } from "react";
 
+const TOTAL_QUESTIONS = 36;
+
 interface AssessmentContextType {
   name: string;
   setName: (name: string) => void;
 
   answers: number[];
   setAnswers: React.Dispatch<React.SetStateAction<number[]>>;
+
+  resetAssessment: () => void;
 }
 
 const AssessmentContext = createContext<AssessmentContextType | null>(null);
@@ -32,12 +36,12 @@ export function AssessmentProvider({ children }: { children: ReactNode }) {
   const [answers, setAnswers] = useState<number[]>(() => {
     const saved = localStorage.getItem("assessment");
 
-    if (!saved) return Array(36).fill(0);
+    if (!saved) return Array(TOTAL_QUESTIONS).fill(0);
 
     try {
-      return JSON.parse(saved).answers ?? Array(36).fill(0);
+      return JSON.parse(saved).answers ?? Array(TOTAL_QUESTIONS).fill(0);
     } catch {
-      return Array(36).fill(0);
+      return Array(TOTAL_QUESTIONS).fill(0);
     }
   });
 
@@ -51,6 +55,12 @@ export function AssessmentProvider({ children }: { children: ReactNode }) {
     );
   }, [name, answers]);
 
+  function resetAssessment() {
+    localStorage.removeItem("assessment");
+    setName("");
+    setAnswers(Array(TOTAL_QUESTIONS).fill(0));
+  }
+
   return (
     <AssessmentContext.Provider
       value={{
@@ -58,6 +68,7 @@ export function AssessmentProvider({ children }: { children: ReactNode }) {
         setName,
         answers,
         setAnswers,
+        resetAssessment,
       }}
     >
       {children}

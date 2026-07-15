@@ -79,21 +79,92 @@ export default function GiftAccordion({ gift, score, maxScore }: Props) {
               <section>
                 <h4 className="mb-2 font-semibold">Fortalezas</h4>
 
-                <ul className="space-y-2">
-                  {gift.strengths.map(item => (
-                    <li key={item}>✓ {item}</li>
-                  ))}
-                </ul>
+                {gift.strengths.length > 0 ? (
+                  <ul className="space-y-2">
+                    {gift.strengths.map(item => (
+                      <li key={item} className="flex gap-2 text-slate-600">
+                        <span className="text-emerald-600">✓</span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-slate-400">Próximamente...</p>
+                )}
               </section>
 
               <section>
                 <h4 className="mb-2 font-semibold">Riesgos</h4>
 
-                <ul className="space-y-2">
-                  {gift.risks.map(item => (
-                    <li key={item}>• {item}</li>
-                  ))}
-                </ul>
+                {gift.risks.length > 0 ? (
+                  <ul className="space-y-2">
+                    {gift.risks.map(item => (
+                      <li key={item} className="flex gap-2 text-slate-600">
+                        <span className="text-slate-400">•</span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-slate-400">Próximamente...</p>
+                )}
+              </section>
+
+              <section>
+                <h4 className="mb-2 font-semibold">Cómo desarrollarlo</h4>
+
+                {gift.development.length > 0 ? (
+                  <ul className="space-y-2">
+                    {gift.development.map(item => (
+                      <li key={item} className="flex gap-2 text-slate-600">
+                        <span className="text-slate-400">•</span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-slate-400">Próximamente...</p>
+                )}
+              </section>
+
+              <section>
+                <h4 className="mb-2 font-semibold">Personajes bíblicos</h4>
+
+                {gift.characters.length > 0 ? (
+                  <div className="flex flex-wrap gap-2">
+                    {gift.characters.map(name => (
+                      <span
+                        key={name}
+                        className={`rounded-full ${gift.color} bg-opacity-10 px-3 py-1 text-sm text-slate-700`}
+                      >
+                        {name}
+                      </span>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-slate-400">Próximamente...</p>
+                )}
+              </section>
+
+              <section>
+                <h4 className="mb-2 font-semibold">Versículos</h4>
+
+                {gift.verses.length > 0 ? (
+                  <ul className="space-y-3">
+                    {gift.verses.map(verse => (
+                      <li key={verse.reference}>
+                        <p className="text-sm font-medium text-slate-700">
+                          {verse.reference}
+                        </p>
+                        <p className="text-sm italic text-slate-500">
+                          {verse.text}
+                        </p>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-slate-400">Próximamente...</p>
+                )}
               </section>
             </div>
           </motion.div>
