@@ -56,7 +56,7 @@ export default function RadarSection({ data, gifts }: Props) {
     <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
       <h2 className="mb-6 text-xl font-bold">Distribución de dones</h2>
 
-      <div className="h-[340px] w-full">
+      <div className="w-full" style={{ height: "340px" }}>
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart
             data={data}
