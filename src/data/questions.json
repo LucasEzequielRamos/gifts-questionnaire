@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "text": "Disfruto iniciar nuevas obras o proyectos para extender el Reino de Dios.",
+        "gift": "apostol"
+    },
+    {
+        "id": 2,
+        "text": "Me adapto con facilidad a nuevos desafíos y lugares para servir.",
+        "gift": "apostol"
+    },
+    {
+        "id": 3,
+        "text": "Suelo identificar oportunidades donde otros todavía no ven una obra posible.",
+        "gift": "apostol"
+    },
+    {
+        "id": 4,
+        "text": "Percibo con facilidad cuando algo no está alineado con la voluntad de Dios.",
+        "gift": "profeta"
+    },
+    {
+        "id": 5,
+        "text": "Siento una fuerte carga por llamar a otros al arrepentimiento y a la santidad.",
+        "gift": "profeta"
+    },
+    {
+        "id": 6,
+        "text": "No temo comunicar una verdad bíblica aunque resulte incómoda.",
+        "gift": "profeta"
+    },
+    {
+        "id": 7,
+        "text": "Me resulta natural hablar de Jesús con personas que aún no lo conocen.",
+        "gift": "evangelista"
+    },
+    {
+        "id": 8,
+        "text": "Me alegra profundamente cuando alguien entrega su vida a Cristo.",
+        "gift": "evangelista"
+    },
+    {
+        "id": 9,
+        "text": "Busco oportunidades para compartir el Evangelio fuera de la iglesia.",
+        "gift": "evangelista"
+    },
+    {
+        "id": 10,
+        "text": "Me preocupo sinceramente por el bienestar espiritual de otras personas.",
+        "gift": "pastor"
+    },
+    {
+        "id": 11,
+        "text": "Las personas suelen acercarse a mí para buscar consejo o apoyo.",
+        "gift": "pastor"
+    },
+    {
+        "id": 12,
+        "text": "Disfruto acompañar a otros en su crecimiento espiritual.",
+        "gift": "pastor"
+    },
+    {
+        "id": 13,
+        "text": "Me apasiona estudiar la Biblia en profundidad.",
+        "gift": "maestro"
+    },
+    {
+        "id": 14,
+        "text": "Disfruto explicar conceptos bíblicos de forma clara.",
+        "gift": "maestro"
+    },
+    {
+        "id": 15,
+        "text": "Me esfuerzo por asegurar que las enseñanzas sean fieles a las Escrituras.",
+        "gift": "maestro"
+    },
+    {
+        "id": 16,
+        "text": "Me resulta natural organizar personas para alcanzar un objetivo.",
+        "gift": "liderazgo"
+    },
+    {
+        "id": 17,
+        "text": "Disfruto coordinar equipos y distribuir responsabilidades.",
+        "gift": "liderazgo"
+    },
+    {
+        "id": 18,
+        "text": "Cuando surge una dificultad, suelo tomar la iniciativa para resolverla.",
+        "gift": "liderazgo"
+    },
+    {
+        "id": 19,
+        "text": "Me gusta animar a otros cuando atraviesan momentos difíciles.",
+        "gift": "exhortacion"
+    },
+    {
+        "id": 20,
+        "text": "Suelo motivar a las personas para que continúen creciendo en su fe.",
+        "gift": "exhortacion"
+    },
+    {
+        "id": 21,
+        "text": "Mis palabras suelen fortalecer y alentar a quienes me rodean.",
+        "gift": "exhortacion"
+    },
+    {
+        "id": 22,
+        "text": "Confío en que Dios obrará aun cuando no veo una solución.",
+        "gift": "fe"
+    },
+    {
+        "id": 23,
+        "text": "Mantengo la esperanza incluso en situaciones muy difíciles.",
+        "gift": "fe"
+    },
+    {
+        "id": 24,
+        "text": "Mi confianza en Dios suele animar la fe de otras personas.",
+        "gift": "fe"
+    },
+    {
+        "id": 25,
+        "text": "Las personas suelen pedirme consejo para tomar decisiones importantes.",
+        "gift": "sabiduria"
+    },
+    {
+        "id": 26,
+        "text": "Puedo aplicar principios bíblicos a situaciones prácticas con facilidad.",
+        "gift": "sabiduria"
+    },
+    {
+        "id": 27,
+        "text": "Disfruto descubrir nuevos detalles al estudiar la Palabra de Dios.",
+        "gift": "conocimiento"
+    },
+    {
+        "id": 28,
+        "text": "Con frecuencia relaciono distintos pasajes bíblicos para comprender mejor un tema.",
+        "gift": "conocimiento"
+    },
+    {
+        "id": 29,
+        "text": "Detecto con facilidad enseñanzas o actitudes que no son bíblicas.",
+        "gift": "discernimiento"
+    },
+    {
+        "id": 30,
+        "text": "Antes de aceptar una idea espiritual, procuro evaluarla cuidadosamente a la luz de la Biblia.",
+        "gift": "discernimiento"
+    },
+    {
+        "id": 31,
+        "text": "Encuentro satisfacción ayudando en tareas prácticas aunque nadie lo note.",
+        "gift": "servicio"
+    },
+    {
+        "id": 32,
+        "text": "Estoy dispuesto a servir donde haga falta, aun en tareas sencillas.",
+        "gift": "servicio"
+    },
+    {
+        "id": 33,
+        "text": "Me conmueve profundamente el sufrimiento de otras personas.",
+        "gift": "misericordia"
+    },
+    {
+        "id": 34,
+        "text": "Busco maneras concretas de ayudar a quienes están pasando necesidad.",
+        "gift": "misericordia"
+    },
+    {
+        "id": 35,
+        "text": "Me gusta planificar, organizar recursos y mantener las cosas en orden.",
+        "gift": "administracion"
+    },
+    {
+        "id": 36,
+        "text": "Disfruto coordinar procesos para que un proyecto funcione de manera eficiente.",
+        "gift": "administracion"
+    }
+]

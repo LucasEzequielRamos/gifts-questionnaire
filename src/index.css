@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, sans-serif;
+
+  --background: #f8fafc;
+  --foreground: #1e293b;
+
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+
+  --secondary: #e0f2fe;
+
+  --success: #10b981;
+
+  --danger: #ef4444;
+
+  --border: #e2e8f0;
+
+  --card: #ffffff;
+
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
