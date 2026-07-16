@@ -19,688 +19,800 @@ import type { Gift } from "../types/gift";
 
 export const gifts: Gift[] = [
   {
-    id: "apostol",
-    name: "Apóstol",
-    icon: Compass,
-    color: "bg-indigo-500",
+  id: "apostol",
+  name: "Apóstol",
+  icon: Compass,
+  color: "bg-indigo-500",
 
-    maxScore: 15,
-    questions: 3,
+  maxScore: 15,
+  questions: 3,
 
-    summary:
-      "Pionero que funda y lidera nuevas obras, llevando el evangelio a lugares donde aún no ha llegado.",
+  summary:
+    "Dios te impulsa a abrir caminos, iniciar nuevas obras y motivar a otros a expandir Su Reino.",
 
-    description:
-      "El don apostólico —en su función misionera y pionera, no en el oficio fundacional único de los doce apóstoles (Ef. 2:20)— capacita a la persona para iniciar iglesias, atravesar fronteras culturales y establecer las bases doctrinales de nuevas comunidades de fe. Quien lo posee suele sentir una carga especial por lugares donde el evangelio no ha sido predicado.",
+  description:
+    "El don de apóstol se caracteriza por la capacidad de iniciar nuevas obras, identificar oportunidades para servir y guiar a otros hacia nuevos desafíos espirituales. Quienes poseen este don suelen tener una visión amplia del Reino de Dios y disfrutan construir, organizar y desarrollar proyectos que permitan alcanzar a más personas con el Evangelio. Son personas que se adaptan con facilidad a los cambios, enfrentan nuevos desafíos con entusiasmo y buscan constantemente formas de hacer crecer la obra de Dios. Este don requiere humildad, dependencia del Señor y un corazón dispuesto a servir antes que buscar reconocimiento.",
 
-    strengths: [
-      "Visión para iniciar proyectos donde otros ven imposibilidad",
-      "Capacidad de adaptarse a contextos culturales nuevos",
-      "Autoridad espiritual natural para sentar fundamentos doctrinales",
-      "Resistencia ante la oposición y las dificultades del pionero",
-    ],
+  strengths: [
+    "Tiene iniciativa para comenzar nuevos proyectos y ministerios.",
+    "Se adapta con facilidad a los cambios y nuevos desafíos.",
+    "Inspira y motiva a otros a servir con una visión de crecimiento."
+  ],
 
-    risks: [
-      "Impaciencia con estructuras ya establecidas",
-      "Tendencia a actuar con independencia excesiva",
-      "Dificultad para permanecer en tareas de mantenimiento a largo plazo",
-    ],
+  risks: [
+    "Puede comenzar muchos proyectos sin terminarlos.",
+    "Corre el riesgo de descuidar los detalles por enfocarse en la visión general.",
+    "Puede frustrarse cuando otros avanzan a un ritmo diferente."
+  ],
 
-    development: [
-      "Someterse a la supervisión de una iglesia local y ancianos",
-      "Formarse en teología sistemática antes de plantar",
-      "Buscar mentores con experiencia en plantación de iglesias",
-      "Cultivar paciencia mediante el servicio en tareas no protagónicas",
-    ],
+  development: [
+    "Mantén una vida constante de oración antes de iniciar nuevos proyectos.",
+    "Aprende a trabajar en equipo y delegar responsabilidades.",
+    "Escucha el consejo de líderes maduros antes de tomar decisiones importantes.",
+    "Desarrolla perseverancia para finalizar aquello que comienzas.",
+    "Recuerda que el crecimiento del Reino depende de Dios y no solo del esfuerzo humano."
+  ],
 
-    characters: ["Pablo", "Bernabé", "Timoteo"],
+  characters: [
+    "Pablo",
+    "Bernabé",
+    "Timoteo"
+  ],
 
-    verses: [
-      {
-        reference: "Efesios 2:20",
-        text: "La iglesia está edificada sobre el fundamento de los apóstoles y profetas, siendo Cristo mismo la piedra angular.",
-      },
-      {
-        reference: "Hechos 13:2-3",
-        text: "El Espíritu Santo aparta a Bernabé y Saulo para la obra misionera, y la iglesia los envía con ayuno y oración.",
-      },
-    ],
+  verses: [{
+    reference: "Efesios 4:11" ,
+    text:"«Y él mismo constituyó a unos, apóstoles; a otros, profetas; a otros, evangelistas; a otros, pastores y maestros.» Este versículo muestra que el ministerio apostólico es un regalo de Cristo para fortalecer y edificar a Su Iglesia.",
+
   },
+    {
+      reference: "1 Corintios 12:28" ,
+      text:"«Y a unos puso Dios en la iglesia, primeramente apóstoles, luego profetas, lo tercero maestros...» Pablo enseña que Dios distribuye diferentes funciones dentro del cuerpo de Cristo para que la Iglesia crezca de manera saludable.",
+    },
+    {
+      reference: "Mateo 28:19-20" ,
+      text:"«Por tanto, id, y haced discípulos a todas las naciones...» La Gran Comisión refleja el corazón del don apostólico: llevar el Evangelio a nuevos lugares y formar discípulos que continúen la misión."
+    }
+  ]
+},
 
   {
-    id: "profeta",
-    name: "Profeta",
-    icon: Megaphone,
-    color: "bg-red-500",
+  id: "profeta",
+  name: "Profeta",
+  icon: Megaphone,
+  color: "bg-red-500",
 
-    maxScore: 15,
-    questions: 3,
+  maxScore: 15,
+  questions: 3,
 
-    summary:
-      "Proclama la verdad de Dios con valentía, llamando a la iglesia al arrepentimiento y la fidelidad.",
+  summary:
+    "Dios te da sensibilidad para reconocer Su verdad y valentía para comunicarla con amor.",
 
-    description:
-      "En la tradición reformada, el don profético no implica nueva revelación —la Escritura es suficiente y cerrada (2 Ti. 3:16-17)— sino la capacidad de aplicar la Palabra ya revelada con claridad y urgencia, confrontando el pecado y señalando la voluntad de Dios para la vida de la iglesia.",
+  description:
+    "El don de profecía permite discernir con claridad aquello que está de acuerdo con la voluntad de Dios y comunicar Su verdad para edificar, corregir y animar a la Iglesia. No se trata únicamente de anunciar acontecimientos futuros, sino de hablar con fidelidad lo que Dios revela a través de Su Palabra. Las personas con este don suelen tener una profunda pasión por la santidad, la justicia y la obediencia al Señor. Su desafío es transmitir la verdad con amor, recordando que el propósito de Dios siempre es restaurar y acercar a las personas a Él.",
 
-    strengths: [
-      "Claridad para identificar el pecado y la desobediencia",
-      "Valentía para hablar verdades incómodas",
-      "Sensibilidad a la santidad y la justicia de Dios",
-      "Capacidad de mover a la iglesia hacia el arrepentimiento",
-    ],
+  strengths: [
+    "Discierne con facilidad lo que está de acuerdo con la Palabra de Dios.",
+    "Tiene valentía para defender la verdad aun cuando resulte difícil.",
+    "Motiva a otros a buscar una vida de obediencia y santidad."
+  ],
 
-    risks: [
-      "Dureza o falta de gracia al corregir",
-      "Orgullo espiritual al sentirse portador de una palabra especial",
-      "Precipitación al juzgar antes de escuchar",
-    ],
+  risks: [
+    "Puede comunicar la verdad con dureza en lugar de hacerlo con amor.",
+    "Corre el riesgo de juzgar rápidamente las acciones de otras personas.",
+    "Puede olvidar mostrar gracia mientras enfatiza la justicia."
+  ],
 
-    development: [
-      "Someter todo mensaje al filtro de la Escritura",
-      "Cultivar mansedumbre junto con la franqueza (Gá. 6:1)",
-      "Aprender a corregir en amor y en privado primero",
-      "Rendir cuentas a los ancianos de la iglesia",
-    ],
+  development: [
+    "Dedica tiempo al estudio profundo de la Biblia para afirmar cada convicción.",
+    "Aprende a hablar la verdad con humildad y amor.",
+    "Ora antes de corregir o aconsejar a alguien.",
+    "Escucha también a otros creyentes maduros para mantener un espíritu enseñable.",
+    "Recuerda que el objetivo siempre es restaurar y no simplemente señalar errores."
+  ],
 
-    characters: ["Elías", "Isaías", "Juan el Bautista"],
+  characters: [
+    "Elías",
+    "Jeremías",
+    "Juan el Bautista"
+  ],
 
-    verses: [
-      {
-        reference: "2 Timoteo 3:16-17",
-        text: "Toda la Escritura es inspirada por Dios y útil para enseñar, redargüir, corregir e instruir en justicia.",
-      },
-      {
-        reference: "Efesios 4:15",
-        text: "Se nos llama a hablar la verdad en amor, para crecer en todo hacia Cristo, quien es la cabeza.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Efesios 4:15",
+      text: "«Sino que siguiendo la verdad en amor, crezcamos en todo en aquel que es la cabeza, esto es, Cristo.» La verdad debe comunicarse siempre con amor para producir crecimiento espiritual y no solamente corrección."
+    },
+    {
+      reference: "1 Corintios 14:3",
+      text: "«Pero el que profetiza habla a los hombres para edificación, exhortación y consolación.» La profecía bíblica tiene como propósito fortalecer, animar y consolar a la Iglesia, no generar temor o división."
+    },
+    {
+      reference: "Jeremías 1:7-8",
+      text: "«No digas: Soy un niño... porque a todo lo que te envíe irás tú...» Dios recuerda que Él capacita a quienes llama para hablar Su verdad, sin importar su edad o experiencia."
+    }
+  ]
+},
 
-  {
-    id: "evangelista",
-    name: "Evangelista",
-    icon: Flame,
-    color: "bg-orange-500",
+ {
+  id: "evangelista",
+  name: "Evangelista",
+  icon: Flame,
+  color: "bg-orange-500",
 
-    maxScore: 15,
-    questions: 3,
+  questions: 3,
+  maxScore: 15,
 
-    summary:
-      "Comunica el evangelio con claridad y pasión, llevando a otros a un encuentro genuino con Cristo.",
+  summary:
+    "Dios pone en tu corazón el deseo de compartir a Jesús para que más personas lleguen a conocerlo.",
 
-    description:
-      "El evangelista tiene una capacidad particular para explicar el evangelio de manera comprensible y persuasiva, y siente un impulso constante por alcanzar a los que no conocen a Cristo, tanto dentro como fuera de los muros de la iglesia.",
+  description:
+    "El don de evangelismo impulsa a una persona a compartir las buenas noticias de Jesucristo con entusiasmo, sensibilidad y amor. Quienes desarrollan este don sienten una profunda alegría cuando otros conocen a Cristo y desean que todos tengan la oportunidad de escuchar el mensaje del Evangelio. No se trata únicamente de predicar frente a una multitud, sino también de reflejar a Jesús mediante el ejemplo diario, las conversaciones personales y una vida coherente con la fe. Este don florece cuando se combina con humildad, compasión y una verdadera preocupación por las personas.",
 
-    strengths: [
-      "Facilidad para iniciar conversaciones espirituales",
-      "Claridad al explicar el evangelio",
-      "Entusiasmo contagioso por compartir la fe",
-      "Sensibilidad para identificar personas receptivas",
-    ],
+  strengths: [
+    "Comparte el Evangelio con naturalidad y entusiasmo.",
+    "Tiene facilidad para conectar con personas que aún no conocen a Cristo.",
+    "Transmite esperanza y alegría al hablar de la salvación."
+  ],
 
-    risks: [
-      "Reducir el discipulado a un solo momento de decisión",
-      "Descuidar el seguimiento y cuidado posterior del nuevo creyente",
-      "Impaciencia con procesos de fe más lentos",
-    ],
+  risks: [
+    "Puede frustrarse cuando las personas no responden inmediatamente al mensaje.",
+    "Corre el riesgo de enfocarse solo en alcanzar personas nuevas y descuidar el discipulado.",
+    "Puede hablar demasiado y escuchar poco las necesidades de quienes lo rodean."
+  ],
 
-    development: [
-      "Aprender principios básicos de discipulado y seguimiento",
-      "Estudiar teología para profundizar el contenido del mensaje",
-      "Trabajar en equipo con quienes tienen el don de pastoreo",
-      "Practicar la escucha antes de hablar",
-    ],
+  development: [
+    "Ora diariamente por personas que todavía no conocen a Jesús.",
+    "Aprende a escuchar antes de compartir tu experiencia de fe.",
+    "Conoce bien el mensaje del Evangelio para comunicarlo con claridad.",
+    "Vive de manera coherente con lo que predicas.",
+    "Recuerda que es el Espíritu Santo quien transforma los corazones."
+  ],
 
-    characters: ["Felipe el evangelista", "Andrés"],
+  characters: [
+    "Felipe",
+    "Pablo",
+    "Andrés"
+  ],
 
-    verses: [
-      {
-        reference: "Hechos 8:35",
-        text: "Felipe, comenzando desde esa misma Escritura, le anuncia las buenas nuevas de Jesús al etíope.",
-      },
-      {
-        reference: "2 Timoteo 4:5",
-        text: "Pablo exhorta a Timoteo a hacer la obra de evangelista y cumplir cabalmente su ministerio.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Mateo 28:19-20",
+      text: "«Por tanto, id, y haced discípulos a todas las naciones...». Jesús encomienda a todos sus seguidores la misión de compartir el Evangelio y formar discípulos, mostrando el corazón del ministerio evangelístico."
+    },
+    {
+      reference: "Romanos 10:14",
+      text: "«¿Y cómo creerán en aquel de quien no han oído? ¿Y cómo oirán sin haber quien les predique?». Pablo enseña que las personas necesitan escuchar el mensaje de Cristo para poder creer en Él."
+    },
+    {
+      reference: "2 Timoteo 4:5",
+      text: "«Pero tú sé sobrio en todo... haz obra de evangelista, cumple tu ministerio.». Pablo anima a Timoteo a perseverar anunciando el Evangelio con fidelidad, aun en tiempos difíciles."
+    }
+  ]
+},
 
-  {
-    id: "pastor",
-    name: "Pastor",
-    icon: Heart,
-    color: "bg-emerald-500",
+ {
+  id: "pastor",
+  name: "Pastor",
+  icon: Heart,
+  color: "bg-emerald-500",
 
-    maxScore: 15,
-    questions: 3,
+  questions: 3,
+  maxScore: 15,
 
-    summary:
-      "Cuida, guía y protege a las personas, acompañándolas en su crecimiento espiritual a largo plazo.",
+  summary:
+    "Dios desarrolla en ti un corazón dispuesto a cuidar, acompañar y fortalecer espiritualmente a otras personas.",
 
-    description:
-      "El don pastoral se expresa en el cuidado sostenido de las personas: conocerlas, acompañarlas en sus luchas, protegerlas del error y guiarlas hacia la madurez en Cristo, siguiendo el modelo del Buen Pastor (Jn. 10).",
+  description:
+    "El don de pastor refleja el corazón de Jesús como el Buen Pastor. Quienes manifiestan este don disfrutan acompañar a las personas en su crecimiento espiritual, escuchar sus luchas y brindar apoyo con paciencia y amor. Su preocupación principal no es simplemente organizar actividades, sino cuidar genuinamente la vida de quienes Dios pone a su alrededor. Son personas accesibles, compasivas y comprometidas con el bienestar del grupo. Este don requiere sensibilidad, humildad y una disposición constante para servir, recordando que el verdadero Pastor de la Iglesia siempre es Cristo.",
 
-    strengths: [
-      "Capacidad de generar confianza y cercanía",
-      "Paciencia para acompañar procesos largos",
-      "Sensibilidad ante el sufrimiento ajeno",
-      "Deseo genuino de proteger a los más débiles",
-    ],
+  strengths: [
+    "Demuestra un interés genuino por el bienestar espiritual de las personas.",
+    "Escucha con empatía y brinda apoyo en momentos difíciles.",
+    "Acompaña con paciencia el crecimiento de otros creyentes."
+  ],
 
-    risks: [
-      "Sobrecarga emocional por cargar con las luchas de todos",
-      "Dificultad para establecer límites saludables",
-      "Evitar conflictos necesarios por preservar la armonía",
-    ],
+  risks: [
+    "Puede descuidar su propia vida espiritual por cuidar demasiado a los demás.",
+    "Le cuesta establecer límites saludables cuando quiere ayudar a todos.",
+    "Puede desanimarse cuando las personas rechazan el acompañamiento."
+  ],
 
-    development: [
-      "Aprender a delegar y no cargar todo el peso solo",
-      "Practicar el descanso y el autocuidado",
-      "Formarse en consejería bíblica",
-      "Buscar la corrección fraterna de otros líderes",
-    ],
+  development: [
+    "Dedica tiempo a fortalecer tu relación personal con Dios.",
+    "Aprende a escuchar antes de dar consejos.",
+    "Confía en que Dios también obra cuando tú no puedes resolver una situación.",
+    "Busca el equilibrio entre servir y descansar.",
+    "Rodéate de otros líderes que puedan apoyarte y aconsejarte."
+  ],
 
-    characters: ["David", "Pedro"],
+  characters: [
+    "Jesús",
+    "Pedro",
+    "Timoteo"
+  ],
 
-    verses: [
-      {
-        reference: "Juan 10:11",
-        text: "Jesús se presenta como el buen pastor, que da su vida por las ovejas.",
-      },
-      {
-        reference: "1 Pedro 5:2-3",
-        text: "Pedro exhorta a los ancianos a pastorear el rebaño de Dios con entrega genuina, no por obligación ni con dominio.",
-      },
-    ],
-  },
-
-  {
-    id: "maestro",
-    name: "Maestro",
-    icon: BookOpen,
-    color: "bg-blue-600",
-
-    maxScore: 15,
-    questions: 3,
-
-    summary:
-      "Explica y transmite la verdad bíblica con orden, claridad y profundidad doctrinal.",
-
-    description:
-      "El maestro tiene la capacidad de investigar, organizar y comunicar la Palabra de Dios de manera clara, ayudando a la iglesia a entender correctamente la sana doctrina y a discernir la verdad del error.",
-
-    strengths: [
-      "Capacidad de estudio profundo y organizado",
-      "Claridad para explicar conceptos complejos",
-      "Amor genuino por la sana doctrina",
-      "Paciencia para responder preguntas y dudas",
-    ],
-
-    risks: [
-      "Priorizar el conocimiento sobre la aplicación práctica",
-      "Orgullo intelectual o actitud de superioridad",
-      "Sequedad relacional al enfocarse solo en el contenido",
-    ],
-
-    development: [
-      "Estudiar teología sistemática y bíblica de forma continua",
-      "Buscar formas creativas de aplicar la enseñanza a la vida real",
-      "Cultivar la humildad y la dependencia del Espíritu al enseñar",
-      "Recibir retroalimentación de otros maestros y ancianos",
-    ],
-
-    characters: ["Esdras", "Apolos"],
-
-    verses: [
-      {
-        reference: "Esdras 7:10",
-        text: "Esdras había dispuesto su corazón a estudiar la ley de Jehová, ponerla por obra y enseñarla en Israel.",
-      },
-      {
-        reference: "Romanos 12:7",
-        text: "Pablo enumera la enseñanza entre los dones que deben ejercerse conforme a la gracia recibida.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Juan 10:11",
+      text: "«Yo soy el buen pastor; el buen pastor su vida da por las ovejas.». Jesús es el modelo perfecto de amor, entrega y cuidado por quienes le pertenecen."
+    },
+    {
+      reference: "1 Pedro 5:2-3",
+      text: "«Apacentad la grey de Dios que está entre vosotros...». Pedro anima a cuidar al pueblo de Dios con amor, humildad y siendo ejemplo para los demás."
+    },
+    {
+      reference: "Ezequiel 34:16",
+      text: "«Yo buscaré la perdida, y haré volver al redil la descarriada...». Dios revela Su corazón pastoral al restaurar y fortalecer a quienes necesitan cuidado."
+    }
+  ]
+},
 
   {
-    id: "liderazgo",
-    name: "Liderazgo",
-    icon: Crown,
-    color: "bg-yellow-500",
+  id: "maestro",
+  name: "Maestro",
+  icon: BookOpen,
+  color: "bg-blue-500",
 
-    maxScore: 15,
-    questions: 3,
+  questions: 3,
+  maxScore: 15,
 
-    summary:
-      "Organiza, dirige y moviliza a otros hacia una visión común con claridad y diligencia.",
+  summary:
+    "Dios te da el deseo de comprender profundamente Su Palabra y ayudar a otros a entenderla con claridad.",
 
-    description:
-      "Quien tiene este don es capaz de ver el panorama general, establecer objetivos claros y movilizar a las personas hacia una meta común, ejerciendo autoridad con diligencia y responsabilidad delante de Dios (Ro. 12:8).",
+  description:
+    "El don de enseñanza permite comprender, organizar y comunicar las verdades de la Biblia de una manera clara y fiel. Quienes desarrollan este don disfrutan estudiar las Escrituras, responder preguntas y ayudar a otros a crecer en el conocimiento de Dios. Más que transmitir información, buscan que las personas comprendan la voluntad del Señor y la apliquen a su vida diaria. Este don requiere humildad, dedicación al estudio y una dependencia constante del Espíritu Santo para enseñar con amor, fidelidad y sabiduría.",
 
-    strengths: [
-      "Visión estratégica y capacidad de planificación",
-      "Habilidad para motivar y coordinar equipos",
-      "Decisión firme ante la incertidumbre",
-      "Sentido de responsabilidad por los resultados",
-    ],
+  strengths: [
+    "Explica conceptos bíblicos de forma clara y comprensible.",
+    "Tiene interés constante por aprender y profundizar en las Escrituras.",
+    "Ayuda a otros a crecer espiritualmente mediante la enseñanza."
+  ],
 
-    risks: [
-      "Autoritarismo o falta de escucha",
-      "Priorizar la eficiencia sobre las personas",
-      "Dificultad para delegar control",
-    ],
+  risks: [
+    "Puede enfocarse demasiado en el conocimiento y descuidar la práctica.",
+    "Corre el riesgo de volverse crítico con quienes conocen menos.",
+    "Puede sentirse frustrado cuando otros no muestran interés por aprender."
+  ],
 
-    development: [
-      "Practicar el liderazgo de servicio (Mr. 10:42-45)",
-      "Buscar retroalimentación honesta de su equipo",
-      "Formarse en administración y gestión de personas",
-      "Someter las decisiones importantes a la rendición de cuentas",
-    ],
+  development: [
+    "Dedica tiempo constante al estudio de la Biblia.",
+    "Aprende a comunicar la verdad con paciencia y amor.",
+    "Escucha diferentes perspectivas bíblicas con humildad.",
+    "Busca oportunidades para enseñar en grupos pequeños o discipulados.",
+    "Permite que tu vida refleje aquello que enseñas."
+  ],
 
-    characters: ["Nehemías", "Josué"],
+  characters: [
+    "Esdras",
+    "Pablo",
+    "Priscila"
+  ],
 
-    verses: [
-      {
-        reference: "Romanos 12:8",
-        text: "Pablo llama a quien dirige a hacerlo con diligencia.",
-      },
-      {
-        reference: "Nehemías 2:17-18",
-        text: "Nehemías organiza y moviliza al pueblo para reconstruir los muros de Jerusalén, y ellos responden con disposición.",
-      },
-    ],
-  },
-
-  {
-    id: "exhortacion",
-    name: "Exhortación",
-    icon: Users,
-    color: "bg-sky-500",
-
-    maxScore: 15,
-    questions: 3,
-
-    summary:
-      "Anima, aconseja y motiva a otros a perseverar y crecer en la fe.",
-
-    description:
-      "El don de exhortación se expresa en la capacidad de animar, aconsejar y motivar a las personas hacia la acción práctica y la perseverancia, ofreciendo consejo bíblico oportuno en momentos de duda o desánimo.",
-
-    strengths: [
-      "Capacidad de dar ánimo genuino y oportuno",
-      "Habilidad para dar consejo práctico y aplicable",
-      "Optimismo bíblico realista ante las dificultades",
-      "Facilidad para motivar a la acción",
-    ],
-
-    risks: [
-      "Simplificar problemas complejos con respuestas rápidas",
-      "Impaciencia con quienes no responden de inmediato",
-      "Dar consejo sin haber escuchado lo suficiente",
-    ],
-
-    development: [
-      "Desarrollar habilidades de escucha activa",
-      "Profundizar en consejería bíblica",
-      "Aprender a acompañar el proceso, no solo dar la solución",
-      "Discernir cuándo animar y cuándo simplemente acompañar en silencio",
-    ],
-
-    characters: ["Bernabé", "Pablo"],
-
-    verses: [
-      {
-        reference: "Hechos 4:36",
-        text: "A José, un levita de Chipre, los apóstoles lo llaman Bernabé, que significa hijo de consolación.",
-      },
-      {
-        reference: "Romanos 12:8",
-        text: "Pablo incluye la exhortación entre los dones a ejercer según la gracia recibida.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Romanos 12:7",
+      text: "«...el que enseña, en la enseñanza.» Pablo recuerda que quienes reciben este don deben dedicarlo al servicio de la Iglesia con fidelidad y compromiso."
+    },
+    {
+      reference: "2 Timoteo 2:15",
+      text: "«Procura con diligencia presentarte a Dios aprobado... que usa bien la palabra de verdad.» Este pasaje anima a estudiar cuidadosamente las Escrituras para enseñar correctamente la verdad de Dios."
+    },
+    {
+      reference: "Santiago 3:1",
+      text: "«Hermanos míos, no os hagáis maestros muchos de vosotros...» Santiago recuerda la gran responsabilidad que implica enseñar la Palabra de Dios con fidelidad."
+    }
+  ]
+},
 
   {
-    id: "fe",
-    name: "Fe",
-    icon: Shield,
-    color: "bg-violet-500",
+  id: "liderazgo",
+  name: "Liderazgo",
+  icon: Crown,
+  color: "bg-amber-500",
 
-    maxScore: 15,
-    questions: 3,
+  questions: 3,
+  maxScore: 15,
 
-    summary:
-      "Confía en las promesas de Dios de manera extraordinaria, incluso frente a circunstancias imposibles.",
+  summary:
+    "Dios te capacita para influir, organizar y guiar a otras personas hacia un propósito común.",
 
-    description:
-      "Distinto de la fe salvadora que todo creyente posee, este don —según 1 Corintios 12:9— es una confianza especial que Dios concede a algunos para creer y actuar en situaciones que exigen una dependencia extraordinaria de su poder y provisión.",
+  description:
+    "El don de liderazgo permite motivar, organizar y dirigir a otras personas para alcanzar objetivos que glorifiquen a Dios. Quienes desarrollan este don suelen tomar la iniciativa, planificar con claridad y ayudar a que un equipo trabaje unido. Un buen líder cristiano no busca reconocimiento personal, sino servir a los demás siguiendo el ejemplo de Jesús. Este don combina visión, responsabilidad, humildad y la capacidad de tomar decisiones con sabiduría, siempre procurando que las personas crezcan mientras cumplen la misión que Dios les ha encomendado.",
 
-    strengths: [
-      "Confianza firme en las promesas de Dios",
-      "Capacidad de inspirar fe en otros",
-      "Perseverancia frente a la adversidad",
-      "Disposición a arriesgarse por causas que exceden lo humanamente posible",
-    ],
+  strengths: [
+    "Organiza equipos y recursos de manera eficiente.",
+    "Motiva a otros para trabajar unidos por un objetivo.",
+    "Toma decisiones con iniciativa y responsabilidad."
+  ],
 
-    risks: [
-      "Confundir convicción personal con la voluntad revelada de Dios",
-      "Presionar a otros a tener 'más fe'",
-      "Ignorar la sabiduría práctica o el consejo de otros",
-    ],
+  risks: [
+    "Puede querer controlar demasiado las decisiones.",
+    "Corre el riesgo de confiar más en sus capacidades que en Dios.",
+    "Puede impacientarse cuando el equipo no avanza al mismo ritmo."
+  ],
 
-    development: [
-      "Anclar la fe siempre en las promesas concretas de la Escritura",
-      "Someter las decisiones grandes al consejo de la iglesia",
-      "Cultivar la oración como expresión de dependencia",
-      "Distinguir entre fe bíblica y presunción",
-    ],
+  development: [
+    "Busca siempre la dirección de Dios antes de tomar decisiones importantes.",
+    "Aprende a escuchar las ideas y opiniones de los demás.",
+    "Desarrolla un corazón de servicio antes que de autoridad.",
+    "Forma nuevos líderes y aprende a delegar responsabilidades.",
+    "Recuerda que el éxito verdadero consiste en glorificar a Dios y ayudar a crecer a las personas."
+  ],
 
-    characters: ["Abraham", "Daniel"],
+  characters: [
+    "Nehemías",
+    "Moisés",
+    "Josué"
+  ],
 
-    verses: [
-      {
-        reference: "Hebreos 11:1",
-        text: "La fe es la certeza de lo que se espera, la convicción de lo que no se ve.",
-      },
-      {
-        reference: "1 Corintios 12:9",
-        text: "Pablo menciona la fe como uno de los dones repartidos por el mismo Espíritu.",
-      },
-    ],
-  },
-
-  {
-    id: "sabiduria",
-    name: "Sabiduría",
-    icon: Lightbulb,
-    color: "bg-amber-500",
-
-    maxScore: 10,
-    questions: 2,
-
-    summary:
-      "Aplica la verdad de Dios a situaciones concretas con discernimiento práctico y profundidad espiritual.",
-
-    description:
-      "El don de sabiduría —'palabra de sabiduría' en 1 Corintios 12:8— capacita a la persona para aplicar el conocimiento bíblico a decisiones y situaciones concretas, ofreciendo perspectiva y consejo que reflejan la mente de Dios.",
-
-    strengths: [
-      "Capacidad de ver más allá de lo evidente",
-      "Buen juicio en decisiones difíciles",
-      "Habilidad de conectar la verdad bíblica con la vida real",
-      "Calma y ponderación ante la presión",
-    ],
-
-    risks: [
-      "Excesiva cautela que retrasa decisiones necesarias",
-      "Actitud de superioridad frente a quienes deciden distinto",
-      "Confiar en la propia intuición por encima de la Escritura",
-    ],
-
-    development: [
-      "Pedir sabiduría a Dios en oración (Stg. 1:5)",
-      "Estudiar la Escritura con constancia",
-      "Buscar consejo en múltiples consejeros (Pr. 15:22)",
-      "Practicar la humildad al aconsejar",
-    ],
-
-    characters: ["Salomón", "José"],
-
-    verses: [
-      {
-        reference: "Santiago 1:5",
-        text: "Si a alguno le falta sabiduría, que la pida a Dios, quien da a todos abundantemente sin reprochar.",
-      },
-      {
-        reference: "1 Reyes 3:9",
-        text: "Salomón pide a Dios un corazón entendido para gobernar y discernir entre el bien y el mal.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Romanos 12:8",
+      text: "«...el que preside, con solicitud...» Pablo enseña que el liderazgo debe ejercerse con dedicación, responsabilidad y compromiso."
+    },
+    {
+      reference: "Marcos 10:45",
+      text: "«Porque el Hijo del Hombre no vino para ser servido, sino para servir...» Jesús enseña que el verdadero liderazgo cristiano se basa en el servicio y la entrega por los demás."
+    },
+    {
+      reference: "Éxodo 18:21",
+      text: "«Además escoge tú de entre todo el pueblo varones de virtud...» Jetro aconseja a Moisés formar líderes capaces y delegar responsabilidades para cuidar mejor al pueblo de Dios."
+    }
+  ]
+},
 
   {
-    id: "conocimiento",
-    name: "Conocimiento",
-    icon: Brain,
-    color: "bg-cyan-500",
+  id: "exhortacion",
+  name: "Exhortación",
+  icon: Users,
+  color: "bg-pink-500",
 
-    maxScore: 10,
-    questions: 2,
+  questions: 3,
+  maxScore: 15,
 
-    summary:
-      "Investiga y comprende con profundidad las verdades de la Escritura para el beneficio de la iglesia.",
+  summary:
+    "Dios te da la capacidad de animar, fortalecer y motivar a otros para que continúen creciendo en su fe.",
 
-    description:
-      "El don de conocimiento —'palabra de ciencia' en 1 Corintios 12:8— se manifiesta en la capacidad de investigar, comprender y organizar la verdad bíblica en profundidad, descubriendo conexiones y verdades que enriquecen la comprensión de la iglesia.",
+  description:
+    "El don de exhortación permite brindar ánimo, consuelo y motivación a las personas en los momentos en que más lo necesitan. Quienes desarrollan este don tienen facilidad para escuchar, comprender y ofrecer palabras oportunas que fortalecen la fe y renuevan la esperanza. Su presencia suele transmitir confianza y aliento, ayudando a otros a perseverar en medio de las dificultades. La exhortación bíblica no consiste únicamente en corregir, sino también en acompañar, animar y recordar las promesas de Dios para que las personas continúen avanzando en su caminar con Cristo.",
 
-    strengths: [
-      "Curiosidad intelectual y disciplina de estudio",
-      "Capacidad de análisis y síntesis",
-      "Precisión al manejar información bíblica",
-      "Deseo genuino de conocer a Dios más profundamente",
-    ],
+  strengths: [
+    "Anima a otros con palabras oportunas y edificantes.",
+    "Escucha con empatía y ofrece apoyo en momentos difíciles.",
+    "Motiva a las personas a seguir creciendo espiritualmente."
+  ],
 
-    risks: [
-      "Acumular conocimiento sin aplicarlo a la vida",
-      "Orgullo intelectual (1 Co. 8:1)",
-      "Desconexión relacional por priorizar el estudio",
-    ],
+  risks: [
+    "Puede involucrarse demasiado en los problemas de los demás.",
+    "Corre el riesgo de dar consejos sin escuchar completamente la situación.",
+    "Puede desanimarse cuando no ve cambios inmediatos en las personas."
+  ],
 
-    development: [
-      "Recordar que el conocimiento debe estar guiado por el amor (1 Co. 13:2)",
-      "Compartir el conocimiento de forma accesible",
-      "Buscar aplicación práctica constante",
-      "Cultivar la humildad frente a lo que aún no se comprende",
-    ],
+  development: [
+    "Dedica tiempo a escuchar antes de hablar.",
+    "Aprende a fundamentar tus consejos en la Palabra de Dios.",
+    "Ora por las personas antes y después de animarlas.",
+    "Mantén una actitud positiva incluso en medio de las dificultades.",
+    "Recuerda que solo Dios puede transformar verdaderamente los corazones."
+  ],
 
-    characters: ["Esdras", "Lucas"],
+  characters: [
+    "Bernabé",
+    "Pablo",
+    "Timoteo"
+  ],
 
-    verses: [
-      {
-        reference: "1 Corintios 8:1",
-        text: "Pablo advierte que el conocimiento envanece, pero el amor edifica.",
-      },
-      {
-        reference: "Proverbios 2:6",
-        text: "Jehová da la sabiduría, y de su boca viene el conocimiento y la inteligencia.",
-      },
-    ],
-  },
-
-  {
-    id: "discernimiento",
-    name: "Discernimiento",
-    icon: Search,
-    color: "bg-teal-500",
-
-    maxScore: 10,
-    questions: 2,
-
-    summary:
-      "Distingue entre la verdad y el error, evaluando doctrinas, actitudes y espíritus con sensibilidad bíblica.",
-
-    description:
-      "El don de discernimiento de espíritus (1 Co. 12:10) capacita a la persona para reconocer cuándo una enseñanza, actitud o motivación se aparta de la verdad bíblica, protegiendo así a la iglesia del engaño y el error doctrinal.",
-
-    strengths: [
-      "Sensibilidad para detectar inconsistencias doctrinales",
-      "Capacidad de evaluar motivaciones e intenciones",
-      "Firmeza para señalar el error con base bíblica",
-      "Protección natural hacia la pureza de la iglesia",
-    ],
-
-    risks: [
-      "Suspicacia excesiva o juicios apresurados",
-      "Legalismo al aplicar estándares propios como si fueran bíblicos",
-      "Aislarse de personas por diferencias menores",
-    ],
-
-    development: [
-      "Fundamentar todo discernimiento en la Escritura, no en la intuición",
-      "Ejercer el don con gracia y no solo con crítica",
-      "Consultar a otros antes de emitir juicios definitivos",
-      "Cultivar la caridad hacia los débiles en la fe (Ro. 14)",
-    ],
-
-    characters: ["Los de Berea (Hechos 17:11)", "Juan el apóstol"],
-
-    verses: [
-      {
-        reference: "1 Juan 4:1",
-        text: "Juan exhorta a no creer a todo espíritu, sino a probar los espíritus para ver si son de Dios.",
-      },
-      {
-        reference: "Hechos 17:11",
-        text: "Los de Berea examinaban cada día las Escrituras para confirmar si lo que se les enseñaba era así.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Hebreos 10:24-25",
+      text: "«Y considerémonos unos a otros para estimularnos al amor y a las buenas obras...». Dios nos llama a animarnos mutuamente y a perseverar juntos en la fe."
+    },
+    {
+      reference: "1 Tesalonicenses 5:11",
+      text: "«Por lo cual, animaos unos a otros, y edificaos unos a otros...». La exhortación fortalece la unidad y el crecimiento espiritual dentro de la Iglesia."
+    },
+    {
+      reference: "Romanos 12:8",
+      text: "«...el que exhorta, en la exhortación...». Pablo enseña que este don debe ejercerse con dedicación para fortalecer a otros creyentes."
+    }
+  ]
+},
 
   {
-    id: "servicio",
-    name: "Servicio",
-    icon: HandHelping,
-    color: "bg-green-500",
+  id: "fe",
+  name: "Fe",
+  icon: Shield,
+  color: "bg-violet-500",
 
-    maxScore: 10,
-    questions: 2,
+  questions: 3,
+  maxScore: 15,
 
-    summary:
-      "Atiende necesidades prácticas con humildad, sirviendo a otros de forma concreta y constante.",
+  summary:
+    "Dios desarrolla en ti una confianza firme en Su poder y en Sus promesas, incluso cuando no puedes ver la respuesta.",
 
-    description:
-      "El don de servicio (Ro. 12:7, también llamado 'ayudas' en 1 Co. 12:28) se expresa en la disposición a atender necesidades prácticas de la iglesia, muchas veces en tareas que pasan desapercibidas pero que sostienen la vida de la comunidad.",
+  description:
+    "El don de fe se manifiesta en una confianza extraordinaria en Dios, aun cuando las circunstancias parezcan imposibles. Quienes desarrollan este don inspiran esperanza y transmiten seguridad porque creen que Dios siempre cumple Sus promesas y continúa obrando en cada situación. Esta fe no se basa en el optimismo humano, sino en el conocimiento del carácter fiel de Dios. Las personas con este don suelen fortalecer la confianza de quienes las rodean y recordar constantemente que nada es imposible para el Señor cuando actuamos conforme a Su voluntad.",
 
-    strengths: [
-      "Disposición constante a ayudar sin buscar reconocimiento",
-      "Atención a los detalles prácticos",
-      "Fidelidad en tareas repetitivas o poco visibles",
-      "Sensibilidad para notar necesidades concretas",
-    ],
+  strengths: [
+    "Confía plenamente en Dios aun en tiempos difíciles.",
+    "Transmite esperanza y seguridad a quienes lo rodean.",
+    "Persevera sin rendirse cuando enfrenta desafíos."
+  ],
 
-    risks: [
-      "Agotamiento por no saber decir que no",
-      "Sentirse infravalorado si no se reconoce el esfuerzo",
-      "Descuidar otras áreas de crecimiento espiritual por estar siempre sirviendo",
-    ],
+  risks: [
+    "Puede subestimar las dificultades prácticas confiando únicamente en su percepción.",
+    "Corre el riesgo de desanimarse cuando Dios responde de una manera diferente a la esperada.",
+    "Puede esperar que otros tengan el mismo nivel de confianza que él."
+  ],
 
-    development: [
-      "Aprender a establecer límites saludables",
-      "Recordar que el servicio se hace para el Señor, no para ser visto (Col. 3:23)",
-      "Buscar momentos de descanso y renovación espiritual",
-      "Permitir que otros también sirvan, sin acaparar tareas",
-    ],
+  development: [
+    "Fortalece tu relación con Dios mediante la oración diaria.",
+    "Recuerda constantemente las promesas que Dios ha cumplido en Su Palabra.",
+    "Comparte testimonios que animen la fe de otros.",
+    "Aprende a esperar con paciencia el tiempo perfecto de Dios.",
+    "Mantén una actitud de confianza incluso cuando no comprendas lo que está sucediendo."
+  ],
 
-    characters: ["Marta", "Los siete de Hechos 6"],
+  characters: [
+    "Abraham",
+    "Daniel",
+    "Caleb"
+  ],
 
-    verses: [
-      {
-        reference: "Marcos 10:45",
-        text: "El Hijo del Hombre no vino para ser servido, sino para servir y dar su vida en rescate por muchos.",
-      },
-      {
-        reference: "Hechos 6:3",
-        text: "La iglesia elige a hombres llenos del Espíritu y de sabiduría para atender el servicio diario.",
-      },
-    ],
-  },
-
-  {
-    id: "misericordia",
-    name: "Misericordia",
-    icon: UserRound,
-    color: "bg-pink-500",
-
-    maxScore: 10,
-    questions: 2,
-
-    summary:
-      "Percibe y responde al sufrimiento ajeno con compasión genuina y acción concreta.",
-
-    description:
-      "El don de misericordia (Ro. 12:8) se manifiesta en una sensibilidad especial hacia quienes sufren, junto con la disposición a acompañarlos y ayudarlos con alegría, reflejando el corazón compasivo de Dios.",
-
-    strengths: [
-      "Empatía profunda hacia el dolor ajeno",
-      "Capacidad de acompañar sin juzgar",
-      "Alegría genuina al ayudar a los que sufren",
-      "Sensibilidad para notar a quienes otros pasan por alto",
-    ],
-
-    risks: [
-      "Absorber emocionalmente el sufrimiento de otros hasta el agotamiento",
-      "Evitar la confrontación necesaria por no causar más dolor",
-      "Dificultad para poner límites ante personas manipuladoras",
-    ],
-
-    development: [
-      "Practicar el autocuidado y el descanso emocional",
-      "Aprender a combinar compasión con verdad (Ef. 4:15)",
-      "Buscar apoyo de otros al acompañar casos difíciles",
-      "Reconocer que la misericordia también implica confrontar con amor",
-    ],
-
-    characters: ["El buen samaritano (parábola)", "Dorcas / Tabita"],
-
-    verses: [
-      {
-        reference: "Romanos 12:8",
-        text: "Pablo llama a ejercer la misericordia con alegría.",
-      },
-      {
-        reference: "Lucas 10:33-34",
-        text: "El samaritano, al ver al hombre herido, se compadece de él y lo cuida con sus propias manos.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Hebreos 11:1",
+      text: "«Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve.». La fe nos permite confiar plenamente en Dios aun cuando todavía no vemos el resultado."
+    },
+    {
+      reference: "Marcos 9:23",
+      text: "«Si puedes creer, al que cree todo le es posible.». Jesús enseña que la confianza en el poder de Dios abre la puerta para ver Su obra en nuestra vida."
+    },
+    {
+      reference: "Mateo 17:20",
+      text: "«...si tuviereis fe como un grano de mostaza... nada os será imposible.». Jesús destaca que una fe genuina, aunque parezca pequeña, puede producir grandes resultados cuando está puesta en Dios."
+    }
+  ]
+},
 
   {
-    id: "administracion",
-    name: "Administración",
-    icon: Briefcase,
-    color: "bg-slate-600",
+  id: "sabiduria",
+  name: "Sabiduría",
+  icon: Lightbulb,
+  color: "bg-yellow-500",
 
-    maxScore: 10,
-    questions: 2,
+  questions: 2,
+  maxScore: 10,
 
-    summary:
-      "Organiza personas, recursos y procesos para que la obra de la iglesia funcione con orden y eficacia.",
+  summary:
+    "Dios te ayuda a aplicar Su verdad con discernimiento para tomar decisiones que honren Su voluntad.",
 
-    description:
-      "El don de administración ('gobernaciones' en 1 Co. 12:28) capacita a la persona para planificar, organizar y coordinar los recursos y las personas de manera que los ministerios de la iglesia funcionen con orden, eficiencia y para la gloria de Dios.",
+  description:
+    "El don de sabiduría permite comprender cómo aplicar los principios de la Palabra de Dios en situaciones reales de la vida. Quienes desarrollan este don suelen ofrecer consejos equilibrados, tomar decisiones prudentes y ayudar a otros a encontrar dirección en momentos de incertidumbre. La sabiduría bíblica no depende únicamente de la experiencia o del conocimiento, sino de una relación cercana con Dios y de la guía del Espíritu Santo. Este don busca reflejar el carácter de Cristo en cada decisión, promoviendo la paz, la justicia y el crecimiento espiritual de quienes lo rodean.",
 
-    strengths: [
-      "Capacidad de organizar procesos complejos",
-      "Atención al detalle y a la planificación",
-      "Habilidad para coordinar personas y recursos",
-      "Visión práctica para resolver problemas logísticos",
-    ],
+  strengths: [
+    "Brinda consejos prácticos basados en principios bíblicos.",
+    "Analiza las situaciones con calma antes de tomar decisiones.",
+    "Ayuda a otros a encontrar dirección en momentos difíciles."
+  ],
 
-    risks: [
-      "Priorizar la eficiencia sobre las relaciones",
-      "Rigidez frente a los cambios o imprevistos",
-      "Frustración ante la falta de organización en otros",
-    ],
+  risks: [
+    "Puede confiar demasiado en su propio criterio.",
+    "Corre el riesgo de analizar tanto una situación que demore en actuar.",
+    "Puede frustrarse cuando otros toman decisiones impulsivas."
+  ],
 
-    development: [
-      "Recordar que las personas no son solo piezas de un sistema",
-      "Desarrollar flexibilidad ante lo inesperado",
-      "Comunicar con claridad el propósito detrás de cada estructura",
-      "Servir con humildad, no con control",
-    ],
+  development: [
+    "Ora constantemente pidiendo la dirección de Dios.",
+    "Estudia la Biblia para conocer mejor los principios divinos.",
+    "Aprende de creyentes maduros y de sus experiencias.",
+    "Escucha antes de aconsejar y procura comprender toda la situación.",
+    "Recuerda que la verdadera sabiduría comienza con el temor del Señor."
+  ],
 
-    characters: ["Nehemías", "José en Egipto"],
+  characters: [
+    "Salomón",
+    "José",
+    "Daniel"
+  ],
 
-    verses: [
-      {
-        reference: "1 Corintios 14:40",
-        text: "Pablo exhorta a que todo se haga decentemente y con orden.",
-      },
-      {
-        reference: "Éxodo 18:21",
-        text: "Jetro aconseja a Moisés a designar hombres capaces para organizar y compartir la carga de gobernar al pueblo.",
-      },
-    ],
-  },
+  verses: [
+    {
+      reference: "Santiago 1:5",
+      text: "«Y si alguno de vosotros tiene falta de sabiduría, pídala a Dios...». Dios promete dar sabiduría generosamente a quienes la buscan con fe y humildad."
+    },
+    {
+      reference: "Proverbios 9:10",
+      text: "«El temor de Jehová es el principio de la sabiduría...». La verdadera sabiduría nace de reconocer a Dios y vivir conforme a Su voluntad."
+    },
+    {
+      reference: "Colosenses 1:9",
+      text: "«...para que seáis llenos del conocimiento de su voluntad en toda sabiduría e inteligencia espiritual.». Pablo ora para que los creyentes vivan dirigidos por la sabiduría que proviene de Dios."
+    }
+  ]
+},
+
+  {
+  id: "conocimiento",
+  name: "Conocimiento",
+  icon: Brain,
+  color: "bg-cyan-500",
+
+  questions: 2,
+  maxScore: 10,
+
+  summary:
+    "Dios despierta en ti el deseo de descubrir, comprender y profundizar en las verdades de Su Palabra.",
+
+  description:
+    "El don de conocimiento impulsa a estudiar, investigar y comprender profundamente las Escrituras y las verdades de Dios. Quienes desarrollan este don disfrutan aprender, descubrir conexiones entre diferentes pasajes bíblicos y ayudar a otros a comprender mejor el mensaje de la Biblia. Su búsqueda constante del conocimiento no tiene como objetivo acumular información, sino conocer más a Dios y fortalecer la fe de la Iglesia. Este don florece cuando el aprendizaje va acompañado de humildad y de una vida dispuesta a poner en práctica aquello que se aprende.",
+
+  strengths: [
+    "Disfruta estudiar y profundizar en la Palabra de Dios.",
+    "Relaciona fácilmente diferentes enseñanzas bíblicas.",
+    "Comparte información útil que fortalece la fe de otros."
+  ],
+
+  risks: [
+    "Puede enfocarse demasiado en el conocimiento y descuidar la práctica.",
+    "Corre el riesgo de sentirse superior por lo que sabe.",
+    "Puede perder de vista que el amor es más importante que el simple conocimiento."
+  ],
+
+  development: [
+    "Mantén una rutina constante de estudio bíblico.",
+    "Aplica en tu vida aquello que aprendes.",
+    "Comparte tus conocimientos con humildad y amor.",
+    "Escucha diferentes perspectivas bíblicas para seguir creciendo.",
+    "Recuerda que conocer más de Dios debe acercarte más a Él y a las personas."
+  ],
+
+  characters: [
+    "Daniel",
+    "Esdras",
+    "Lucas"
+  ],
+
+  verses: [
+    {
+      reference: "Proverbios 2:6",
+      text: "«Porque Jehová da la sabiduría, y de su boca viene el conocimiento y la inteligencia.». Todo verdadero conocimiento espiritual tiene su origen en Dios."
+    },
+    {
+      reference: "Oseas 4:6",
+      text: "«Mi pueblo fue destruido, porque le faltó conocimiento...». Dios muestra la importancia de conocer Su voluntad para vivir correctamente."
+    },
+    {
+      reference: "2 Pedro 3:18",
+      text: "«Antes bien, creced en la gracia y el conocimiento de nuestro Señor y Salvador Jesucristo...». La vida cristiana implica crecer continuamente en el conocimiento de Cristo."
+    }
+  ]
+},
+
+  {
+  id: "discernimiento",
+  name: "Discernimiento",
+  icon: Search,
+  color: "bg-teal-500",
+
+  questions: 2,
+  maxScore: 10,
+
+  summary:
+    "Dios te ayuda a distinguir entre la verdad y el error para caminar con sabiduría y proteger a otros.",
+
+  description:
+    "El don de discernimiento permite reconocer con claridad aquello que proviene de Dios y aquello que no está de acuerdo con Su voluntad. Quienes desarrollan este don suelen evaluar cuidadosamente las enseñanzas, decisiones y actitudes a la luz de las Escrituras antes de aceptarlas. Más que desconfiar de todo, buscan proteger la verdad y ayudar a otros a permanecer firmes en la fe. Este don requiere una profunda comunión con Dios, humildad para seguir aprendiendo y un corazón dispuesto a actuar siempre con amor y sabiduría.",
+
+  strengths: [
+    "Reconoce fácilmente enseñanzas que no están de acuerdo con la Biblia.",
+    "Analiza las situaciones con prudencia antes de tomar una decisión.",
+    "Ayuda a otros a permanecer firmes en la verdad."
+  ],
+
+  risks: [
+    "Puede volverse demasiado crítico o desconfiado.",
+    "Corre el riesgo de juzgar rápidamente las intenciones de los demás.",
+    "Puede enfocarse tanto en detectar errores que olvide demostrar gracia."
+  ],
+
+  development: [
+    "Profundiza diariamente en el estudio de las Escrituras.",
+    "Ora pidiendo la guía del Espíritu Santo antes de emitir un juicio.",
+    "Aprende a comunicar la verdad con amor y respeto.",
+    "Escucha el consejo de creyentes maduros antes de llegar a conclusiones.",
+    "Recuerda que el discernimiento debe edificar y no generar división."
+  ],
+
+  characters: [
+    "Salomón",
+    "Pablo",
+    "Juan"
+  ],
+
+  verses: [
+    {
+      reference: "1 Juan 4:1",
+      text: "«Amados, no creáis a todo espíritu, sino probad los espíritus si son de Dios...». Juan anima a evaluar toda enseñanza para asegurarse de que esté de acuerdo con la verdad de Dios."
+    },
+    {
+      reference: "Hebreos 5:14",
+      text: "«...los que por el uso tienen los sentidos ejercitados en el discernimiento del bien y del mal.». El discernimiento se fortalece mediante la práctica constante de la Palabra de Dios."
+    },
+    {
+      reference: "Filipenses 1:9-10",
+      text: "«...para que aprobéis lo mejor...». Pablo ora para que los creyentes desarrollen discernimiento y puedan vivir agradando al Señor."
+    }
+  ]
+},
+
+  {
+  id: "servicio",
+  name: "Servicio",
+  icon: HandHelping,
+  color: "bg-green-500",
+
+  questions: 2,
+  maxScore: 10,
+
+  summary:
+    "Dios pone en tu corazón el deseo de ayudar a otros con alegría, humildad y disposición.",
+
+  description:
+    "El don de servicio se refleja en una actitud constante de ayudar a los demás con amor, sin buscar reconocimiento ni recompensa. Quienes desarrollan este don encuentran alegría al colaborar en tareas prácticas, atender necesidades y contribuir para que otras personas puedan crecer y servir mejor. Comprenden que ninguna tarea es pequeña cuando se realiza para Dios y están dispuestos a servir donde más se los necesite. Su ejemplo inspira humildad y demuestra el amor de Cristo mediante acciones concretas más que con palabras.",
+
+  strengths: [
+    "Está dispuesto a ayudar en cualquier tarea con buena actitud.",
+    "Observa necesidades prácticas que otros suelen pasar por alto.",
+    "Sirve con humildad sin buscar reconocimiento."
+  ],
+
+  risks: [
+    "Puede asumir demasiadas responsabilidades y terminar agotado.",
+    "Corre el riesgo de descuidar sus propias necesidades por ayudar a todos.",
+    "Puede sentirse poco valorado cuando su trabajo pasa desapercibido."
+  ],
+
+  development: [
+    "Sirve con alegría recordando que todo lo haces para Dios.",
+    "Aprende a descansar y cuidar también de tu propia vida espiritual.",
+    "Acepta ayuda de otros cuando sea necesario.",
+    "Busca oportunidades para servir incluso en tareas sencillas.",
+    "Recuerda que Dios ve y valora cada acto de servicio, aunque nadie más lo note."
+  ],
+
+  characters: [
+    "Marta",
+    "Dorcas",
+    "Esteban"
+  ],
+
+  verses: [
+    {
+      reference: "Gálatas 5:13",
+      text: "«...servíos por amor los unos a los otros.». El verdadero servicio nace del amor y busca el bienestar de los demás."
+    },
+    {
+      reference: "Marcos 10:45",
+      text: "«Porque el Hijo del Hombre no vino para ser servido, sino para servir...». Jesús es el ejemplo perfecto de un corazón dispuesto a servir con humildad."
+    },
+    {
+      reference: "Colosenses 3:23-24",
+      text: "«Y todo lo que hagáis, hacedlo de corazón, como para el Señor...». Dios honra el servicio realizado con excelencia y una actitud sincera."
+    }
+  ]
+},
+
+  {
+  id: "misericordia",
+  name: "Misericordia",
+  icon: UserRound,
+  color: "bg-rose-500",
+
+  questions: 2,
+  maxScore: 10,
+
+  summary:
+    "Dios desarrolla en ti un corazón sensible para amar, consolar y ayudar a quienes atraviesan momentos de dolor o necesidad.",
+
+  description:
+    "El don de misericordia permite comprender profundamente el sufrimiento de otras personas y responder con compasión, amor y acciones concretas. Quienes desarrollan este don suelen ser sensibles a las necesidades físicas, emocionales y espirituales de quienes los rodean. Disfrutan acompañar, escuchar, consolar y brindar ayuda sin esperar nada a cambio. Su actitud refleja el corazón compasivo de Jesús, quien siempre mostró amor por los que sufrían. Este don recuerda a la Iglesia la importancia de vivir una fe práctica, donde la compasión se convierte en servicio y el amor se demuestra mediante acciones.",
+
+  strengths: [
+    "Demuestra empatía y compasión hacia quienes están sufriendo.",
+    "Está dispuesto a ayudar de manera práctica y desinteresada.",
+    "Genera confianza y hace que las personas se sientan acompañadas."
+  ],
+
+  risks: [
+    "Puede involucrarse emocionalmente hasta el punto de descuidar su propio bienestar.",
+    "Corre el riesgo de querer resolver problemas que solo Dios puede transformar.",
+    "Puede sentirse profundamente afectado por el dolor ajeno."
+  ],
+
+  development: [
+    "Ora por las personas antes de intentar ayudarlas.",
+    "Aprende a acompañar sin cargar con responsabilidades que no te corresponden.",
+    "Busca oportunidades para servir a quienes atraviesan necesidades.",
+    "Recuerda que mostrar misericordia también incluye compartir esperanza en Cristo.",
+    "Cuida tu vida espiritual para poder seguir sirviendo con un corazón sano."
+  ],
+
+  characters: [
+    "El buen samaritano",
+    "Dorcas",
+    "Jesús"
+  ],
+
+  verses: [
+    {
+      reference: "Lucas 6:36",
+      text: "«Sed, pues, misericordiosos, como también vuestro Padre es misericordioso.» Jesús invita a reflejar el carácter compasivo de Dios en nuestra manera de tratar a los demás."
+    },
+    {
+      reference: "Romanos 12:8",
+      text: "«...el que hace misericordia, con alegría.» La misericordia debe ejercerse con un corazón dispuesto, mostrando el amor de Dios con gozo y sinceridad."
+    },
+    {
+      reference: "Mateo 5:7",
+      text: "«Bienaventurados los misericordiosos, porque ellos alcanzarán misericordia.» Jesús enseña que quienes practican la misericordia reflejan el corazón de Dios y reciben Su favor."
+    }
+  ]
+},
+
+  {
+  id: "administracion",
+  name: "Administración",
+  icon: Briefcase,
+  color: "bg-slate-500",
+
+  questions: 2,
+  maxScore: 10,
+
+  summary:
+    "Dios te da la capacidad de organizar personas, recursos y procesos para que Su obra se desarrolle de manera ordenada y eficiente.",
+
+  description:
+    "El don de administración permite planificar, organizar y coordinar recursos con el propósito de que la obra de Dios avance de forma ordenada y eficaz. Quienes desarrollan este don disfrutan estructurar proyectos, distribuir responsabilidades y encontrar maneras de mejorar el funcionamiento de un equipo o ministerio. Comprenden que una buena organización también es una forma de servir a Dios, ya que permite que otras personas desarrollen mejor sus dones. Este don combina responsabilidad, visión, planificación y una actitud de servicio, recordando que toda organización debe estar al servicio de las personas y del Reino de Dios.",
+
+  strengths: [
+    "Organiza recursos y actividades de manera eficiente.",
+    "Planifica con anticipación y presta atención a los detalles.",
+    "Ayuda a que los equipos trabajen con orden y claridad."
+  ],
+
+  risks: [
+    "Puede enfocarse demasiado en la organización y perder de vista a las personas.",
+    "Corre el riesgo de frustrarse cuando las cosas no salen según lo planificado.",
+    "Puede querer controlar todos los detalles en lugar de delegar."
+  ],
+
+  development: [
+    "Aprende a combinar organización con sensibilidad hacia las personas.",
+    "Delega responsabilidades y confía en el trabajo del equipo.",
+    "Busca siempre que la planificación esté guiada por la voluntad de Dios.",
+    "Mantén una actitud flexible frente a los cambios inesperados.",
+    "Recuerda que el propósito de organizar es facilitar el servicio y glorificar a Dios."
+  ],
+
+  characters: [
+    "José",
+    "Nehemías",
+    "Moisés"
+  ],
+
+  verses: [
+    {
+      reference: "1 Corintios 14:40",
+      text: "«Pero hágase todo decentemente y con orden.» Dios desea que Su Iglesia funcione con organización y armonía para cumplir mejor su misión."
+    },
+    {
+      reference: "Éxodo 18:21",
+      text: "«Además escoge tú de entre todo el pueblo varones de virtud...». Jetro enseña a Moisés la importancia de organizar responsabilidades para servir al pueblo de manera más eficiente."
+    },
+    {
+      reference: "Proverbios 21:5",
+      text: "«Los pensamientos del diligente ciertamente tienden a la abundancia...» La buena planificación y la diligencia producen mejores resultados cuando se realizan con sabiduría."
+    }
+  ]
+},
 ];

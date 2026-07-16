@@ -14,7 +14,7 @@ export default function Name() {
   return (
     <AppLayout>
       <div className="flex flex-1 flex-col justify-center gap-8">
-        <h1 className="text-3xl font-bold">¿Cómo te llamás?</h1>
+        <h1 className="text-3xl font-bold text-center">¿Cómo te llamás?</h1>
 
         <Card>
           <Input

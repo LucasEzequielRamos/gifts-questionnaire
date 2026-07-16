@@ -9,7 +9,7 @@ export default function Intro() {
   return (
     <AppLayout>
       <div className="flex flex-1 flex-col justify-center gap-8">
-        <h1 className="text-3xl font-bold">Antes de comenzar</h1>
+        <h1 className="text-3xl font-bold text-center">Antes de comenzar...</h1>
 
         <Card>
           <div className="space-y-4 text-slate-600 leading-relaxed">

@@ -16,7 +16,9 @@ export default function Landing() {
             <BookOpen size={42} className="text-white" />
           </div>
 
-          <h1 className="text-3xl font-bold text-slate-800">Spiritual Gifts</h1>
+          <h1 className="text-3xl font-bold text-slate-800">
+            Cuestionario de Dones Espirituales
+          </h1>
 
           <p className="mt-3 text-slate-500">
             Descubrí los dones espirituales que Dios ha desarrollado en tu vida.

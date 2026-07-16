@@ -15,11 +15,11 @@ import AnswerButton from "../../components/assessment/AnswerButton";
 import { useAssessment } from "../../context/AssessmentContext";
 
 const options = [
-  "Nada característico",
-  "Poco característico",
-  "Moderadamente característico",
-  "Bastante característico",
-  "Muy característico",
+  "Nada acertado",
+  "Poco acertado",
+  "Moderadamente acertado",
+  "Bastante acertado",
+  "Totalmente acertado",
 ];
 
 export default function Assessment() {
